@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.boxShadow {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.fontSize {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.minWidth {
+    min-width: 195px;
+}
+
+.barHeight {
+    height: 0.5rem;
+}
+
+.trash-color {
+    color: red;
+}
+.widthAt{
+    @media (max-width: 768px) { width: 100% !important; }
+}
